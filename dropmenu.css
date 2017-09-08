@@ -1,0 +1,27 @@
+.maintitle{
+    margin: auto;
+    text-align: center;
+    border: 5px solid black;
+    padding: 10px; 
+}
+.dropdown {
+    margin: auto;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ccccf9;
+    min-width: 160px;
+    border: 2px solid black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 5px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
